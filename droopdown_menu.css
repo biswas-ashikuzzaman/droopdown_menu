@@ -10,4 +10,30 @@
     .navbar{
         background-color: white;
         width: 100%;
+        border-bottom: 2px solid gold;
+    }
+        /* Top Part */
+    .navbar_top{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+        align-items: center;
+        background-color: white
+    }
+    .logo{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .highlight{
+        color: gold;
+    }
+    .search-box{
+       flex: 1;
+       margin: 0px 30px;
+       position: relative;
+    }
+    .search-box input{
+        width: 100%;
+        padding: 8px 40px 8px 15px;
+        margin-right: 20px;
     }
